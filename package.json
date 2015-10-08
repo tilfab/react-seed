@@ -1,8 +1,8 @@
 {
   "name": "react-seed",
   "version": "0.0.16",
-  "description": "Seed project for React apps using ES6 & webpack.",
-  "repository": "https://github.com/badsyntax/react-seed",
+  "description": "Seed project for React apps using ES6 & webpack with Redux",
+  "repository": "https://github.com/tilfab/react-seed",
   "license": "MIT",
   "config": {
     "buildDir": "./build",
