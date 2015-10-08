@@ -10,8 +10,6 @@ A boilerplate for building React apps with ES6 and webpack. Using [Redux](https:
 * [Local CSS](https://github.com/webpack/css-loader#local-scope)
 * Karma, mocha, chai & sinon for testing with mocking examples
 * [Redux](https://github.com/rackt/redux) for app state for app state
-* React router ([feature/react-router](https://github.com/badsyntax/react-seed/tree/feature/react-router))
-* Material UI ([feature/material-ui](https://github.com/badsyntax/react-seed/tree/feature/material-ui))
 
 ## Getting started
 
@@ -154,14 +152,6 @@ import './index.html';
 
 * Use fat arrows for anonymous functions
 * Don't use `var`. Use `let` and `const`.
-
-
-## Releasing
-
-1. `npm version patch`
-2. `git push --follow-tags`
-3. `npm login` (Optional)
-4. `npm publish`
 
 ## Credits
 
