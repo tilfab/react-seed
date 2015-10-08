@@ -10,7 +10,15 @@ import { Provider } from 'react-redux';
 import App from './components/App/App';
 import reducer from './reducers/reducers';
 
-let store = createStore(reducer);
+let initialAppState = {
+    items: [
+        {text: 'Item 1'},
+        {text: 'Item 2'},
+        {text: 'Item 3'}
+    ]
+};
+
+let store = createStore(reducer, initialAppState);
 
 React.render(
     // The child must be wrapped in a function
