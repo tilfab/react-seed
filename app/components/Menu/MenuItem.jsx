@@ -10,14 +10,14 @@ export default class MenuItem extends Component {
 
   onItemClick = (e) => {
     e.preventDefault();
-    window.alert('You clicked ' + this.props.item.label);
+    window.alert('You clicked ' + this.props.item.text);
   }
 
   render() {
     return (
       <li key={'menu-item-' + this.props.item.id}>
         <a href="#" onClick={this.onItemClick}>
-          {this.props.item.label}
+          {this.props.item.text}
         </a>
       </li>
     );

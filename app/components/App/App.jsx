@@ -2,7 +2,7 @@ import styles from './_App.scss';
 
 import React from 'react';
 import { connect } from 'react-redux';
-import { addItem } from './actions/creators';
+import { addItem } from '../../actions/creators';
 import Body from '../Body/Body';
 import Footer from '../Footer/Footer';
 
@@ -13,7 +13,9 @@ export default class App extends React.Component {
   }
 
   addItemCallback(text) {
-    this.props.dispatch(addItem(text));
+    let id = Date().getTime();
+
+    this.props.dispatch(addItem(id, text));
   }
 
   render() {
@@ -28,7 +30,7 @@ export default class App extends React.Component {
 
 function select(state) {
   return {
-    items: state.items;
+    items: state.items
   }
 }
 

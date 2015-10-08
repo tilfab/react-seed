@@ -12,9 +12,9 @@ import reducer from './reducers/reducers';
 
 let initialAppState = {
     items: [
-        {text: 'Item 1'},
-        {text: 'Item 2'},
-        {text: 'Item 3'}
+        {id: 1, text: 'Item 1'},
+        {id: 2, text: 'Item 2'},
+        {id: 3, text: 'Item 3'}
     ]
 };
 
