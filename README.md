@@ -1,6 +1,6 @@
-# React seed [![Build Status](https://travis-ci.org/badsyntax/react-seed.svg?branch=master)](https://travis-ci.org/badsyntax/react-seed)
+# React seed
 
-A boilerplate for building React apps with ES6 and webpack.
+A boilerplate for building React apps with ES6 and webpack. Using [Redux](https://github.com/rackt/redux) for app state.
 
 ## What you get
 
@@ -9,7 +9,7 @@ A boilerplate for building React apps with ES6 and webpack.
 * webpack with react hot loader, and other useful loaders
 * [Local CSS](https://github.com/webpack/css-loader#local-scope)
 * Karma, mocha, chai & sinon for testing with mocking examples
-* Basic flux architecture with app actions, stores and example web API usage
+* [Redux](https://github.com/rackt/redux) for app state for app state
 * React router ([feature/react-router](https://github.com/badsyntax/react-seed/tree/feature/react-router))
 * Material UI ([feature/material-ui](https://github.com/badsyntax/react-seed/tree/feature/material-ui))
 
@@ -18,14 +18,8 @@ A boilerplate for building React apps with ES6 and webpack.
 ### Installing with git
 
 ```bash
-git clone --depth=1 https://github.com/badsyntax/react-seed.git my-project
+git clone --depth=1 https://github.com/tilfab/react-seed.git my-project
 ```
-
-### Installing with yeoman
-
-1. `npm install -g yo`
-2. `npm install -g generator-react-seed`
-3. Use the generator like so: `yo react-seed`
 
 ## npm scripts
 
@@ -171,10 +165,10 @@ import './index.html';
 
 ## Credits
 
-This project was initially forked from https://github.com/tcoopman/react-es6-browserify
+This project was initially forked from https://github.com/badsyntax/react-seed
 
 ## License
 
-Copyright (c) 2015 Richard Willis
+Copyright (c) 2015 Tilf AB
 
 MIT (http://opensource.org/licenses/MIT)
