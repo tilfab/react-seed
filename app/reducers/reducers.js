@@ -13,7 +13,7 @@ function items(state = [], action) {
 }
 
 const reducer = combineReducers({
-
+    items
 });
 
 export default reducer;
