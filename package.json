@@ -1,6 +1,6 @@
 {
   "name": "react-seed",
-  "version": "0.0.16",
+  "version": "0.0.1",
   "description": "Seed project for React apps using ES6 & webpack with Redux",
   "repository": "https://github.com/tilfab/react-seed",
   "license": "MIT",
