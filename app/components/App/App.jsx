@@ -31,7 +31,7 @@ export default class App extends React.Component {
 function select(state) {
   return {
     items: state.items
-  }
+  };
 }
 
 export default connect(select)(App);
